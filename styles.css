@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+
+body {
+    min-height: 100vh;
+}
+
+ body {
+     padding: 0;
+     margin: 0;
+     font-family: 'Barlow', sans-serif;
+ }
+
+ 
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    
+}
+ 
+ button {
+     border: initial;
+     background-color: initial;
+     font: inherit;
+     color: inherit;
+     outline: none; /* make sure there is a visual indicator for focus*/
+ }
+
+.main {
+    height: 100vh;
+    background-image: url('images/desktop/image-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.main-h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 5rem;
+    color: white;
+}
+
+.nav-links {
+    margin-right: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links:nth-child(2){
+    margin-left: auto ;
+}
+
+.contact-btn {
+    color: black;
+    background-color: white;
+    padding: 12px 30px;
+    border-radius: 500px;
+}
+
+.main-arrow {
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    
+}
+
+.grid {
+    height: 100vh;
+}
+
+.grid-section-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10rem;
+    
+}
+
+.grid-section-1-h2 {
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+.grid-section-1-p {
+    font-size: 1.2rem;
+    color: gray;
+    margin: 2rem 0;
+    font-weight: 100;
+    line-height: 1.8;
+}
+
+.grid-section-2 {
+    background-image: url('images/desktop/image-transform.jpg');
+    grid-column: 2/3;
+    grid-row: 1/2;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-section-btn {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.grid-section-3 {
+    background-image: url('images/desktop/image-stand-out.jpg');
+    grid-column: 1/2;
+    grid-row: 2/3;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.grid-section-4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10rem;
+}
+.grid-section-5 {
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    grid-column: 1/2;
+    grid-row: 3/4;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9rem;
+    color: hsl(167, 40%, 24%);  
+}
+
+.grid-section-5-header,
+.grid-section-6-header {
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 18rem;
+}
+.grid-section-6 {
+    background-image: url('images/desktop/image-photography.jpg');
+    grid-column: 2/3;
+    grid-row: 3/4;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    padding: 9rem;
+    color: hsl(212, 27%, 19%);
+}
+
+.grid-section-5-p,
+.grid-section-6-p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.client-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.client-testimonial-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.client-testimonial-heading {
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    color: hsl(232, 10%, 55%);
+    margin: 5rem 0;
+}
+
+.client-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.client-testimonial-img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.client-testimonial-p {
+    padding: 2rem;
+    line-height: 1.8;
+    color: hsl(213, 9%, 39%);
+}
+
+.client-testimonial-name {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    margin: 1rem 0;
+}
+.client-testimonial-job-title {
+    color: hsl(210, 4%, 67%);
+}
+
+.lower-image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100vh;
+}
+
+.lower-image-1 {
+    background: url('images/desktop/image-gallery-milkbottles.jpg');
+    grid-column: 1/2;
+    grid-row: 1fr;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.lower-image-2 {
+    background: url('images/desktop/image-gallery-orange.jpg');
+    grid-column: 2/3;
+    grid-row: 1fr;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.lower-image-3 {
+    background: url('images/desktop/image-gallery-cone.jpg');
+    grid-column: 3/4;
+    grid-row: 1fr;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.lower-image-4 {
+    background: url('images/desktop/image-gallery-sugarcubes.jpg');
+    grid-column: 4/5;
+    grid-row: 1fr;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.footer {
+    background-color: hsl(168, 34%, 41%) ;
+    height: 50vh;
+}
+
+.footer-logo {
+    color: #25564b;
+}
