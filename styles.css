@@ -281,8 +281,32 @@ h2 {
 .footer {
     background-color: hsl(168, 34%, 41%) ;
     height: 50vh;
+    color: #25564b;
+    text-align: center;
 }
 
 .footer-logo {
-    color: #25564b;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-link {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.footer-social-links {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.social-link {
+    margin: 0 1rem;
 }
