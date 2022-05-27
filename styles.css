@@ -319,6 +319,9 @@ h2 {
 }
 
 @media (max-width: 720px) {
+    body {
+        width: fit-content;
+    }
     .nav-links {
         display: none;
     }
@@ -326,7 +329,20 @@ h2 {
         display: flex;
         margin-left: auto;
     }
-  
+    
+    
+    .grid-section-2 {
+        background-image: url('images/mobile/image-transform.jpg');
+    }
+    .grid-section-3 {
+        background-image: url('images/mobile/image-stand-out.jpg');
+    }
+    .grid-section-5 {
+        background-image: url('images/mobile/image-graphic-design.jpg');  
+    }
+    .grid-section-6 {
+        background-image: url('images/mobile/image-photography.jpg');
+    }
     
     .main-h1 {
         font-size: 4rem;
