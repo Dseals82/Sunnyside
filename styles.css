@@ -339,11 +339,11 @@ h2 {
         padding-top: 5rem;
     }
     .grid-section-btn {
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin-top: 5rem;
     }
     .grid-section-1-p {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 5rem;
     }
     .grid-section-1 {
@@ -471,7 +471,7 @@ h2 {
 @media (max-width: 542px) {
     .client-testimonial-heading {
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -480,7 +480,8 @@ h2 {
    .grid-section-2-p
    .grid-section-3-p
    .grid-section-4-p
-   .grid-section-5-p {
-       font-size: 25px;
+   .grid-section-5-p 
+   .grid-section-6-p{
+       font-size: 1px;
    }
 }
