@@ -334,6 +334,18 @@ h2 {
         padding: 3rem;
         text-align: center;
     }
+    .grid-section-5-header,
+    .grid-section-6-header{
+        padding-top: 5rem;
+    }
+    .grid-section-btn {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+    .grid-section-1-p {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
     .grid-section-1 {
         grid-column: 1/2;
         grid-row: 1/2;
@@ -456,6 +468,19 @@ h2 {
     }
 }
 
+@media (max-width: 542px) {
+    .client-testimonial-heading {
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 390px) {
-   
+   .grid-section-1-p
+   .grid-section-2-p
+   .grid-section-3-p
+   .grid-section-4-p
+   .grid-section-5-p {
+       font-size: 25px;
+   }
 }
